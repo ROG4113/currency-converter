@@ -1,6 +1,12 @@
+import Converter from "./components/Converter";
+import Header from "./components/Header";
+
 function App() {
   return (
-    <h1>Hello</h1>
+    <div className="flex flex-col" >
+      <Header />
+      <Converter />
+    </div>
   );
 }
 
